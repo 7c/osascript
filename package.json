@@ -1,0 +1,32 @@
+{
+  "name": "@7c/osascript",
+  "version": "2.0.0",
+  "description": "AppleScript wrapper for Node.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7c/osascript.git"
+  },
+  "main": "dist/osascript.js",
+  "types": "dist/osascript.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "buffers": "^0.1.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "applescript",
+    "osascript"
+  ],
+  "author": "7c",
+  "license": "MIT"
+}
