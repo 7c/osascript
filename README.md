@@ -14,7 +14,7 @@ A modern TypeScript/Node.js library for executing AppleScript commands on macOS.
 ## Installation
 
 ```bash
-npm install @7c/osascript --save
+npm install https://github.com/7c/osascript --save
 ```
 
 ## Usage
